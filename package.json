@@ -1,0 +1,42 @@
+{
+  "author": "Jason Stallings <jason@stallin.gs>",
+  "bin": {
+    "agile-alarm": "index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/guyellis/agile-time-box/issues"
+  },
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "eslint": "^4.8.0",
+    "moment": "^2.11.2",
+    "play-sound": "0.0.9"
+  },
+  "description": "Keep track of time when using agile time boxes.",
+  "devDependencies": {
+    "eslint": "^3.0.0",
+    "eslint-config-airbnb-base": "^12.0.2",
+    "eslint-plugin-import": "^2.7.0"
+  },
+  "engines": {
+    "node": ">=5.0"
+  },
+  "homepage": "https://github.com/guyellis/agile-time-box",
+  "keywords": [
+    "agile",
+    "alarm"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "agile-alarm",
+  "public": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/octalmage/agile-alarm.git"
+  },
+  "scripts": {
+    "test": "eslint **/*.js",
+    "fix": "eslint --fix **/*.js"
+  },
+  "version": "0.0.1"
+}
