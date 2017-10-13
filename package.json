@@ -38,5 +38,5 @@
     "test": "eslint **/*.js",
     "fix": "eslint --fix **/*.js"
   },
-  "version": "0.0.1"
+  "version": "0.0.2"
 }
